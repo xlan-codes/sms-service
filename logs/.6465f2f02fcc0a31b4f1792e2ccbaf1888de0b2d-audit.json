@@ -1,0 +1,34 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "logs\\.6465f2f02fcc0a31b4f1792e2ccbaf1888de0b2d-audit.json",
+    "files": [
+        {
+            "date": 1582747486588,
+            "name": "logs\\silly.log.2020-02-26-21",
+            "hash": "6a5016f6f38e9827cbe0016d8a373176"
+        },
+        {
+            "date": 1582816021649,
+            "name": "logs\\silly.log.2020-02-27-16",
+            "hash": "5fd0aa583fb16e2cbee535bda13aa700"
+        },
+        {
+            "date": 1582819225932,
+            "name": "logs\\silly.log.2020-02-27-17",
+            "hash": "fb84cb901f172ab0101fcf94d67964d1"
+        },
+        {
+            "date": 1582824367970,
+            "name": "logs\\silly.log.2020-02-27-18",
+            "hash": "c73370360d182ce429438e66603a7f9d"
+        },
+        {
+            "date": 1582826538325,
+            "name": "logs\\silly.log.2020-02-27-19",
+            "hash": "af970471981dccb62a678d1fe91f7951"
+        }
+    ]
+}

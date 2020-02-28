@@ -1,0 +1,33 @@
+export declare class ProjectTask {
+    id: string;
+    dateEntered: Date | null;
+    dateModified: Date | null;
+    projectId: string;
+    projectTaskId: number | null;
+    name: string | null;
+    status: string | null;
+    description: string | null;
+    predecessors: string | null;
+    dateStart: string | null;
+    timeStart: number | null;
+    timeFinish: number | null;
+    dateFinish: string | null;
+    duration: number | null;
+    durationUnit: string | null;
+    actualDuration: number | null;
+    percentComplete: number | null;
+    dateDue: string | null;
+    timeDue: string | null;
+    parentTaskId: number | null;
+    assignedUserId: string | null;
+    modifiedUserId: string | null;
+    priority: string | null;
+    createdBy: string | null;
+    milestoneFlag: boolean | null;
+    orderNumber: number | null;
+    taskNumber: number | null;
+    estimatedEffort: number | null;
+    actualEffort: number | null;
+    deleted: boolean | null;
+    utilization: number | null;
+}

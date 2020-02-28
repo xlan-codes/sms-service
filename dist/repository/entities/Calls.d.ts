@@ -1,0 +1,30 @@
+export declare class Calls {
+    id: string;
+    name: string | null;
+    dateEntered: Date | null;
+    dateModified: Date | null;
+    modifiedUserId: string | null;
+    createdBy: string | null;
+    description: string | null;
+    deleted: boolean | null;
+    assignedUserId: string | null;
+    durationHours: number | null;
+    durationMinutes: number | null;
+    dateStart: Date | null;
+    dateEnd: Date | null;
+    parentType: string | null;
+    status: string | null;
+    direction: string | null;
+    parentId: string | null;
+    reminderTime: number | null;
+    emailReminderTime: number | null;
+    emailReminderSent: boolean | null;
+    outlookId: string | null;
+    repeatType: string | null;
+    repeatInterval: number | null;
+    repeatDow: string | null;
+    repeatUntil: string | null;
+    repeatCount: number | null;
+    repeatParentId: string | null;
+    recurringSource: string | null;
+}

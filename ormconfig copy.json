@@ -1,0 +1,16 @@
+[
+  {
+    "name": "default",
+    "type": "mysql",
+    "host": "77.242.21.18",
+    "port": 4433,
+    "username": "root",
+    "password": "",
+    "database": "sugar",
+    "schema": "dbo",
+    "synchronize": false,
+    "entities": [
+      "dist/repository/entities/**/*.js"
+    ]
+  }
+]
